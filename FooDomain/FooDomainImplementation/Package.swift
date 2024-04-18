@@ -14,12 +14,13 @@ let package = Package(
         .package(path: "../FooDomainInterface"),
 
         .package(path: "../../FooData/FooDataInterface"),
+        .package(path: "../../BarDomain/BarDomainInterface"),
         .package(path: "../../Common/DIContainer"),
     ],
     targets: [
         .target(
             name: "FooDomainImplementation",
-            dependencies: ["FooDomainInterface", "FooDataInterface", "DIContainer"]
+            dependencies: ["FooDomainInterface", "FooDataInterface", "DIContainer", "BarDomainInterface"]
         ),
         .testTarget(
             name: "FooDomainImplementationTests",
