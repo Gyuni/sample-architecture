@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:App/App.xcodeproj">
+   </FileRef>
+   <Group
+      location = "container:"
+      name = "Common">
+      <FileRef
+         location = "group:Common/NetworkProvider">
+      </FileRef>
+      <FileRef
+         location = "group:Common/DataStorage">
+      </FileRef>
+      <FileRef
+         location = "group:Common/Constant">
+      </FileRef>
+      <FileRef
+         location = "group:Common/Date">
+      </FileRef>
+      <FileRef
+         location = "group:Common/DIContainer">
+      </FileRef>
+      <FileRef
+         location = "group:Common/SwiftExtension">
+      </FileRef>
+      <FileRef
+         location = "group:Common/RxExtension">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
+      name = "CommonUI">
+      <FileRef
+         location = "group:CommonUI/WebView">
+      </FileRef>
+      <FileRef
+         location = "group:CommonUI/DesignSystem">
+      </FileRef>
+      <FileRef
+         location = "group:CommonUI/ImageLoader">
+      </FileRef>
+      <FileRef
+         location = "group:CommonUI/UIKitExtension">
+      </FileRef>
+      <FileRef
+         location = "group:CommonUI/SwiftUIExtension">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
+      name = "FooDomain">
+      <FileRef
+         location = "group:FooDomain/FooDomainInterface">
+      </FileRef>
+      <FileRef
+         location = "group:FooDomain/FooDomainImplementation">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
+      name = "FooData">
+      <FileRef
+         location = "group:FooData/FooDataInterface">
+      </FileRef>
+      <FileRef
+         location = "group:FooData/FooDataImplementation">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
+      name = "FooPresentation">
+      <FileRef
+         location = "group:FooPresentation/FooPresentationInterface">
+      </FileRef>
+      <FileRef
+         location = "group:FooPresentation/FooPresentationImplementation">
+      </FileRef>
+      <FileRef
+         location = "group:FooPresentation/FooPresentationSample/FooPresentationSample.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
+      name = "BarDomain">
+      <FileRef
+         location = "group:BarDomain/BarDomainInterface">
+      </FileRef>
+      <FileRef
+         location = "group:BarDomain/BarDomainImplementation">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
+      name = "BarData">
+      <FileRef
+         location = "group:BarData/BarDataInterface">
+      </FileRef>
+      <FileRef
+         location = "group:BarData/BarDataImplementation">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
+      name = "BarPresentation">
+      <FileRef
+         location = "group:BarPresentation/BarPresentationInterface">
+      </FileRef>
+      <FileRef
+         location = "group:BarPresentation/BarPresentationImplementation">
+      </FileRef>
+      <FileRef
+         location = "group:BarPresentation/BarPresentationSample/BarPresentationSample.xcodeproj">
+      </FileRef>
+   </Group>
+</Workspace>
